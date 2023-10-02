@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Sims 3 Randomizer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles01.css">
+  <link rel="stylesheet" href="css/copy.css">
+
+</head>
+
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js.js"></script>
+<script src="script.js"></script>
+<script src="script01.js"></script>
+<script src="script02.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://randojs.com/1.0.0.js"></script>
+
+
+<div class="center0"></div>
+<h2 class="text1">RANDOMIZER</h2>
+
+
+<div class="textcon2">
+<h3>Realistic Probability</h3>
+<p class="t1"> The values of certain traits have been increased to reflect realistic statistics.</p>
+</div>
+
+<div class="textcon3">
+<h3 class="text4">Equal Chance</h3>
+<p class="t2"> All traits have the same chance to be rolled. </p>
+</div>
+
+
+<div class="sizecontainer">
+
+<div class="mob1">
+<div class="center c1">
+  <div id="color-output" class="default"></div>
+  <button id="spin-btn" class="first">Eye Color</button>
+</div>
+<div class="center c2 d2">
+  <div id="month-output" class="default"></div>
+  <button id="spin-mth" class="second">Zodiac</button>
+</div>
+<div class="center c3 d3">
+  <div id="hair-output" class="default"></div>
+  <button id="spin-h" class="third">Hair Color</button>
+</div>
+</div>
+
+<div class="mob3">
+<div class="center3 c4">
+  <div id="gender"></div>
+  <button id="fadegen" class="four">Gender</button>
+</div>
+</div>
+
+
+<div class="mob2">
+<div class="center2 c1">
+  <div id="eyecolor-output" class="default"></div>
+  <button id="spin-bbb" class="first">Eye Color</button>
+</div>
+<div class="center2 c2 f2">
+  <div id="shortmonth-output" class="default"></div>
+  <button id="spin-mmm" class="second">Zodiac</button>
+</div>
+<div class="center2 c3 f3">
+  <div id="hhhair-output" class="default"></div>
+  <button id="spin-hh" class="third">Hair Color</button>
+</div>
+</div>
+</div>
+
+<hr>
+
+<div class="textcon">
+  <h3 class="text5">Miscellaneous Factors</h3>
+  <p class="t3">Extra factors that are included throughout the process
+    of making sims.<br><br> Use as needed, to make individual unique sims!</p>
+</div>
+
+<div class="placement">
+<div class="placement2">
+<div class="rand"></div>
+<div class="shift">
+<button class="b1 bb1" onclick="showRandomFrom(arr1);">Hair Length</button>
+<button class="b1 b2" onclick="showRandomFrom(arr2);">Sexuality</button>
+<button class="b1 b3" onclick="showRandomFrom(arr3);">Age</button>
+<button class="b4 bb1" onclick="showRandomFrom(arr4);">Fertility</button>
+<button class="b4 b3" onclick="showRandomFrom(arr5);">Status</button>
+<button class="bb1 b5" onclick="showRandomFrom(arr6);">Humanity</button>
+<button class="b2 b5" onclick="showRandomFrom(arr7);">Voice</button>
+<button class="b2 b3 b5" onclick="showRandomFrom(arr8);">Weight</button>
+</div>
+</div>
+
+  <div id="contain">
+    <div class="myform">
+    <input type="number" id="min_value" placeholder="Min">
+      <input type="number" id="max_value" placeholder="Max">
+      <button class="numbum" onclick="generate()">Generate</button><br><br>
+        <div id="outputs"> </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

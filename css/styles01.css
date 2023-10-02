@@ -1,0 +1,353 @@
+/*Moblie*/
+@media (max-width: 500px) {
+
+  html {
+      box-sizing:border-box;
+      background-image: url("../images/clean.jpg");
+      background-color: black;
+      color: white;
+  }
+
+  *, *:before, *:after {
+      box-sizing:inherit;
+  }
+
+  .center0 {
+    max-width: 100%;
+    height: 120px;
+    opacity: 90%;
+    background:  url("../images/Sims_diamond.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 20px;
+    left: 5%;
+  }
+
+  @font-face {
+    font-family: Mountana;
+    src: url('../fonts/Mountana.ttf');
+  }
+
+  @font-face {
+    font-family: aliens;
+    src: url('../fonts/steelfish rg.otf');
+  }
+
+  h2 {
+    font-size: 50px;
+    font-family: aliens;
+    position: relative;
+    left: 35%;
+    bottom: 2vh;
+    letter-spacing: 5px;
+    opacity: 90%;
+  }
+
+  .textcon2 {
+    width: 96%;
+    height: 150px;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    padding-left: 10px;
+  }
+
+  h3 {
+    font-family: Mountana;
+    font-size: 30px;
+    color: gray;
+  }
+
+  .textcon3 {
+    width: 96%;
+    height: 150px;
+    position: absolute;
+    top: 85vh;
+    left: 30px;
+    padding-left: 10px;
+  }
+
+  p {
+    font-family: aliens;
+    font-size: 23px;
+    letter-spacing: 1.25px;
+    color: gray;
+    opacity: .6;
+    transition: 2s;
+  }
+
+  .t1, .t2 {
+    position: absolute;
+    top: 6vh;
+    width: 300px;
+  }
+
+.t3 {
+  line-height: 20px;
+}
+
+  .default {
+    background-color: gray;
+    width: 200px;
+    height: 104px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+  }
+
+  #color-output, #month-output, #hair-output,
+  #eyecolor-output, #shortmonth-output,
+  #hhhair-output {
+    width: 150px;
+    height: 104px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+  }
+
+  #gender {
+    font-family: Mountana;
+    font-size: 40px;
+    color: white;
+    width: 150px;
+    height: 104px;
+    border: gray 2px solid;
+    border-radius: 5px;
+    padding: 22px;
+    padding-top: 25px;
+    position: absolute;
+    left: 50%;
+  }
+
+  #month-output, #shortmonth-output {
+    top: 15vh;
+  }
+
+  #hair-output, #hhhair-output {
+    top: 30vh;
+  }
+
+#spin-btn, #spin-bbb, #fadegen {
+  position: absolute;
+  top: 20px;
+}
+#spin-mth, #spin-mmm {
+  position: absolute;
+  top: 142px;
+}
+#spin-h, #spin-hh {
+  position: absolute;
+  top: 270px;
+}
+
+  button {
+   padding: 0 auto;
+   margin-bottom: 10px;
+   background-color: #5A5A5A;
+   font-family: Mountana;
+   font-size: 28px;
+   color: white;
+   width: 140px;
+   height: 70px;
+ }
+
+.mob1 {
+  height: 380px;
+  width: 80%;
+  position: absolute;
+  top: 42vh;
+  left: 10vw;
+}
+
+.mob2 {
+  height: 365px;
+  width: 80%;
+  position: absolute;
+  top: 100vh;
+  left: 10vw;
+}
+
+.mob3 {
+  height: 110px;
+  width: 80%;
+  position: absolute;
+  top: 170vh;
+  left: 10vw;
+}
+
+hr {
+  display: none;
+}
+
+.textcon {
+  width: 96%;
+  height: 150px;
+  position: absolute;
+  top: 145vh;
+  left: 30px;
+  padding-left: 10px;
+}
+
+.placement2 {
+  position: absolute;
+  top: 190vh;
+  left: 15vw;
+  width: 73.5%;
+  height: 60vh;
+}
+
+.rand {
+  font-family: Mountana;
+  font-size: 36px;
+  color: white;
+  width: 225px;
+  height: 100px;
+  border: gray 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  left: 10%;
+  padding: 22px;
+  padding-top: 36px;
+  text-align: center;
+}
+
+.shift {
+  position: absolute;
+  top: 15vh;
+}
+
+#contain{
+  height: 500px;
+  position: absolute;
+  left: 25vw;
+  top: 247vh;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .myform {
+   width: 200px;
+   height: 300px;
+    background: #5A5A5A;
+    color:white;
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
+ }
+
+ input[type=number] {
+   width: 150px;
+       height: 50px;
+       background:#c4c4c4;
+       padding: 10px;
+       margin-bottom: 10px;
+     border-radius: 50px;
+     align-items: center;
+     font-size: 35px;
+     color: white;
+     font-family: Mountana;
+     text-align: center;
+   }
+
+   .numbum {
+    width: 140px;
+    height: 60px;
+    background:#888888;
+    border-radius: 10px;
+    margin-bottom:50px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
+    font-size: 30px;
+   }
+
+   #outputs{
+       width:200px;
+       height: 40px;
+       position: absolute;
+       top: 230px;
+       color: #c4c4c4;
+       justify-content: center;
+       align-items: center;
+       font-size: 40px;
+       text-align: center;
+       font-family: aliens;
+     }
+
+  .blue, .blue2, .blue3 {background-image: url("../images/darkblue.jpg");}
+  .blue4, .blue5 {background-image: url("../images/blue2.jpg");}
+  .blue6 {background-image: url("../images/blue3.jpg");}
+  .blue7 {background-image: url("../images/blue5.jpg");}
+  .grey, .grey2 {background-image: url("../images/grey.jpg");}
+  .grey3 {background-image: url("../images/grey2.jpg");}
+  .violet {background-image: url("../images/violet.jpg");}
+  .green {background-image: url("../images/green.jpg");}
+  .green2 {background-image: url("../images/green2.jpg");}
+  .brown, .brown2, .brown3, .brown4, .brown5 {background-image: url("../images/brown2.jpg");}
+  .brown6, .brown7, .brown8, .brown9, .brown10 {background-image: url("../images/brown3.jpg");}
+  .brown11, .brown12, .brown13 {background-image: url("../images/brown4.jpg");}
+  .hazel, .hazel2, .hazel3 {background-image: url("../images/hazel.jpg");}
+  .heterochromia {background-image: url("../images/hetero.jpg");}
+
+  .scorpio, .scorpio2, .scorpio3, .scorpio4 {background-image: url("../images/scorpio.jpg");}
+  .aries, .aries2, .aries3 {background-image: url("../images/aries.jpg");}
+  .virgo, .virgo2, .virgo3, .virgo4 {background-image: url("../images/virgo.jpg");}
+  .pisces, .pisces2, .pisces3, .pisces4 {background-image: url("../images/pisces.jpg");}
+  .gemini, .gemini2, .gemini3, .gemini4 {background-image: url("../images/gemini.jpg");}
+  .libra, .libra2, .libra3 {background-image: url("../images/libra.jpg");}
+  .cancer, .cancer2, .cancer3 {background-image: url("../images/cancer.jpg");}
+  .aquarius, .aquarius2 {background-image: url("../images/aquarius.jpg");}
+  .leo, .leo2, .leo3 {background-image: url("../images/leo.jpg");}
+  .sagittarius, .sagittarius2, .sagittarius3 {background-image: url("../images/sagittarius.jpg");}
+  .capricorn, .capricorn2, .capricorn3 {background-image: url("../images/capricorn.jpg");}
+  .taurus, .taurus2, .taurus3 {background-image: url("../images/taurus.jpg");}
+
+  .blonde {background-image: url("../images/blonde.jpg");}
+  .blonde2 {background-image: url("../images/blonde2.jpg");}
+  .blonde3 {background-image: url("../images/blonde3.jpg");}
+  .red {background-image: url("../images/red.jpg");}
+  .red2 {background-image: url("../images/red2.jpg");}
+  .black, .black2, .black3, .black4, .black5,
+  .black6, .black7, .black8, .black9,
+  .black10, .black11, .black12, .black13, .black14,
+  .black15 {background-image: url("../images/black.jpg");}
+  .darkbr, .darkbr2, .darkbr6, .darkbr7 {background-image: url("../images/br.jpg");}
+  .darkbr3, .darkbr4, .darkbr8, .darkbr9 {background-image: url("../images/br2.jpg");}
+  .darkbr5, .darkbr10 {background-image: url("../images/br3.jpg");}
+
+  .blu {background-image: url("../images/blue2.jpg");}
+  .gre {background-image: url("../images/grey.jpg");}
+  .vio {background-image: url("../images/violet.jpg");}
+  .gren {background-image: url("../images/green.jpg");}
+  .bro {background-image: url("../images/brown2.jpg");}
+  .haz {background-image: url("../images/hazel.jpg");}
+  .romia {background-image: url("../images/hetero.jpg");}
+
+
+  .scor {background-image: url("../images/equal/scorpio.jpg");}
+  .ari {background-image: url("../images/equal/aries.jpg");}
+  .vir {background-image: url("../images/equal/virgo.jpg");}
+  .pisc{background-image: url("../images/equal/pisces.jpg");}
+  .gemi {background-image: url("../images/equal/gemini.jpg");}
+  .lib {background-image: url("../images/equal/libra.jpg");}
+  .canc {background-image: url("../images/equal/cancer.jpg");}
+  .aquar {background-image: url("../images/equal/aquarius.jpg");}
+  .leonar {background-image: url("../images/equal/leo.jpg");}
+  .sagit {background-image: url("../images/equal/sagittarius.jpg");}
+  .capri {background-image: url("../images/equal/capricorn.jpg");}
+  .taur {background-image: url("../images/equal/taurus.jpg");}
+
+
+  .blon {background-image: url("../images/blonde3.jpg");}
+  .redded {background-image: url("../images/red.jpg");}
+  .blac {background-image: url("../images/black.jpg");}
+  .brbr {background-image: url("../images/br3.jpg");}
+
+}
